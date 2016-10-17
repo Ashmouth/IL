@@ -911,6 +911,9 @@
       <ownedParameter xmi:id="_BJnc4JIgEea9nIi1e-YNoQ" name="Texte">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
+      <ownedParameter xmi:id="_4Mmr8JRLEea_5qihOLmHDQ" name="Date">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:id="_dT4A4JRJEea_5qihOLmHDQ" name="vérifierCaptcha">
       <ownedParameter xmi:id="_eBDP8JRJEea_5qihOLmHDQ" name="Captcha">
@@ -2630,7 +2633,7 @@
             <children xmi:type="notation:DecorationNode" xmi:id="_8S0GAZIfEea9nIi1e-YNoQ" type="MessageNameLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_8S0GA5IfEea9nIi1e-YNoQ" type="Stereotype"/>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_8S0tEJIfEea9nIi1e-YNoQ" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8S0GApIfEea9nIi1e-YNoQ" y="-317"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8S0GApIfEea9nIi1e-YNoQ" x="577" y="-425" width="14338" height="422"/>
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8S0GAJIfEea9nIi1e-YNoQ" points="[0, 0, 0, -10]$[0, 10, 0, 0]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8S3JUJIfEea9nIi1e-YNoQ" id="3003:185"/>
@@ -2743,10 +2746,10 @@
           <language></language>
           <body>Ce cours est vraiment génial</body>
         </argument>
-        <argument xmi:type="uml:OpaqueExpression" xmi:id="_pT4hYJIgEea9nIi1e-YNoQ">
-          <eAnnotations xmi:id="_pT5IcJIgEea9nIi1e-YNoQ" source="Parameter" references="_BJnc4JIgEea9nIi1e-YNoQ"/>
+        <argument xmi:type="uml:OpaqueExpression" xmi:id="_yHfu4JRLEea_5qihOLmHDQ">
+          <eAnnotations xmi:id="_yHgV8JRLEea_5qihOLmHDQ" source="Parameter" references="_BJnc4JIgEea9nIi1e-YNoQ"/>
           <language></language>
-          <body>FGZER4G</body>
+          <body>15/10/2016</body>
         </argument>
       </message>
       <message xmi:id="_8SRTcZIfEea9nIi1e-YNoQ" name="enregistrerCommentaire" messageSort="reply" receiveEvent="_8SR6gJIfEea9nIi1e-YNoQ" sendEvent="_8SRTcJIfEea9nIi1e-YNoQ" connector="_K93aoZIfEea9nIi1e-YNoQ">
@@ -2872,7 +2875,7 @@
             <children xmi:type="notation:DecorationNode" xmi:id="_TxK7kJRJEea_5qihOLmHDQ" type="MessageNameLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_TxK7kpRJEea_5qihOLmHDQ" type="Stereotype"/>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_TxK7k5RJEea_5qihOLmHDQ" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TxK7kZRJEea_5qihOLmHDQ" y="-317"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TxK7kZRJEea_5qihOLmHDQ" x="827" y="-884"/>
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TxKUgZRJEea_5qihOLmHDQ" points="[0, 0, 0, -10]$[0, 10, 0, 0]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TxOl8JRJEea_5qihOLmHDQ" id="604:291"/>
@@ -2978,9 +2981,14 @@
           <body>bob</body>
         </argument>
         <argument xmi:type="uml:OpaqueExpression" xmi:id="_WF5-UJRJEea_5qihOLmHDQ">
-          <eAnnotations xmi:id="_WF6lYJRJEea_5qihOLmHDQ" source="Parameter" references="_BJnc4JIgEea9nIi1e-YNoQ"/>
+          <eAnnotations xmi:id="_WF6lYJRJEea_5qihOLmHDQ" source="Parameter" references="_4Mmr8JRLEea_5qihOLmHDQ"/>
           <language></language>
           <body>Je suis d'accord !</body>
+        </argument>
+        <argument xmi:type="uml:OpaqueExpression" xmi:id="_IS4zAJRMEea_5qihOLmHDQ">
+          <eAnnotations xmi:id="_IS5aEJRMEea_5qihOLmHDQ" source="Parameter" references="_4Mmr8JRLEea_5qihOLmHDQ"/>
+          <language></language>
+          <body>18/10/2016</body>
         </argument>
       </message>
       <message xmi:id="_Twdw8ZRJEea_5qihOLmHDQ" name="enregistrerCommentaire" messageSort="reply" receiveEvent="_TweYAJRJEea_5qihOLmHDQ" sendEvent="_Twdw8JRJEea_5qihOLmHDQ" connector="_88kiYJRIEea_5qihOLmHDQ">
